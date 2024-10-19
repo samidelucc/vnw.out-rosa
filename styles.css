@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  height: 15vh;
+  background-color: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (max-width: 770px) {
+  header {
+    flex-direction: column;
+    height: 30vh;
+  }
+}
+
+.boxlogo {
+  width: 25vw;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 770px) {
+  .boxlogo {
+    flex-direction: column;
+    width: 50vw;
+  }
+}
+.boxlogo h1 {
+  color: beige;
+  font-size: 1.7vw;
+  font-weight: 400;
+}
+@media (max-width: 770px) {
+  .boxlogo h1 {
+    font-size: 2.5vw;
+  }
+}
+@media (max-width: 500px) {
+  .boxlogo h1 {
+    font-size: 3.1vw;
+  }
+}
+.boxlogo .imgheader {
+  width: 7vw;
+}
+@media (max-width: 1000px) {
+  .boxlogo .imgheader {
+    width: 7.5vw;
+  }
+}
+@media (max-width: 770px) {
+  .boxlogo .imgheader {
+    font-size: 3vw;
+  }
+}
+@media (max-width: 500px) {
+  .boxlogo .imgheader {
+    font-size: 3.5vw;
+    width: 15vw;
+  }
+}
+
+nav {
+  width: 40vw;
+}
+@media (max-width: 770px) {
+  nav {
+    width: 80%;
+  }
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5vw;
+}
+@media (max-width: 770px) {
+  nav ul {
+    font-size: 2.3vw;
+  }
+}
+@media (max-width: 500px) {
+  nav ul {
+    font-size: 3vw;
+  }
+}
+nav ul a {
+  color: white;
+}
+
+.section1 {
+  background-color: #FFD9EC;
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media (max-width: 600px) {
+  .section1 {
+    flex-direction: column-reverse;
+    height: 70vh;
+  }
+}
+.section1 p {
+  width: 44vw;
+  font-size: 1.7vw;
+  font-weight: 400;
+}
+@media (max-width: 800px) {
+  .section1 p {
+    font-size: 2.3vw;
+    width: 40vw;
+  }
+}
+@media (max-width: 600px) {
+  .section1 p {
+    width: 72vw;
+    font-size: 2.7vw;
+  }
+}
+@media (max-width: 450px) {
+  .section1 p {
+    width: 75vw;
+    font-size: 3.7vw;
+  }
+}
+.section1 img {
+  width: 25vw;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.4666666667) 0px 25px 20px -20px;
+}
+@media (max-width: 800px) {
+  .section1 img {
+    width: 40vw;
+  }
+}
+@media (max-width: 600px) {
+  .section1 img {
+    width: 45vw;
+  }
+}
+@media (max-width: 450px) {
+  .section1 img {
+    width: 45vw;
+  }
+}
+
+.section2 {
+  background-color: #FF69B4;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+}
+@media (max-width: 600px) {
+  .section2 {
+    flex-direction: column-reverse;
+    height: 50vh;
+  }
+}
+.section2 p {
+  color: white;
+  width: 40vw;
+  font-size: 1.7vw;
+  font-weight: 400;
+}
+@media (max-width: 800px) {
+  .section2 p {
+    font-size: 2.5vw;
+    width: 40vw;
+  }
+}
+@media (max-width: 600px) {
+  .section2 p {
+    width: 72vw;
+    font-size: 2.8vw;
+  }
+}
+@media (max-width: 450px) {
+  .section2 p {
+    width: 75vw;
+    font-size: 3.6vw;
+  }
+}
+.section2 img {
+  width: 34vw;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.4666666667) 0px 25px 20px -20px;
+}
+@media (max-width: 800px) {
+  .section2 img {
+    width: 48vw;
+  }
+}
+@media (max-width: 600px) {
+  .section2 img {
+    width: 50vw;
+  }
+}
+@media (max-width: 450px) {
+  .section2 img {
+    width: 50vw;
+  }
+}
+
+.section3 {
+  background-color: #FFD9EC;
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media (max-width: 700px) {
+  .section3 {
+    flex-direction: column;
+    height: 80vh;
+  }
+}
+.section3 img {
+  width: 20vw;
+  margin: 10px;
+}
+@media (max-width: 700px) {
+  .section3 img {
+    width: 30vw;
+  }
+}
+
+footer {
+  background-color: #FF69B4;
+  color: #FFD9EC;
+  height: 25vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (max-width: 800px) {
+  footer {
+    flex-direction: column;
+    height: 40vh;
+  }
+}
+
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer2 p {
+  font-size: 1.6vw;
+  font-weight: 400;
+  text-align: center;
+  margin: 2px;
+}/*# sourceMappingURL=styles.css.map */
